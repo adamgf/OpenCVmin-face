@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "3-clause BSD", :file => "LICENSE" }
   s.author       = { "Adam G. Freeman" => "adamgf@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :http => 'https://github.com/adamgf/OpenCVmin-face/blob/master/opencvmin-face-3.4.5-ios-framework.zip',
-                     :sha256 => '6a3fe03eb48228fc7fb1ee942f3bd6152db89511d6e518c7135385f8d29648a3' }
+  s.source       = { :http => 'https://github.com/adamgf/OpenCVmin-face/raw/master/opencvmin-face-3.4.5-ios-framework.zip',
+                     :sha256 => '4d06c57417292956b0f002c1fcfee66730deb2b3fc68353f8531aacd520815ed' }
   s.vendored_frameworks =  "opencv2.framework"
   s.header_mappings_dir = "opencv2.framework/Versions/A/Headers"
   s.frameworks = [ "AssetsLibrary", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "Foundation", "QuartzCore", "UIKit" ]
