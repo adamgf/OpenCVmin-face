@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "OpenCVmin+face"
+  s.name         = "OpenCVmin-face"
   s.version      = "3.4.5"
   s.summary      = "OpenCV iOS/OSX framework minified + face landmarks module"
   s.description  = <<-DESC
